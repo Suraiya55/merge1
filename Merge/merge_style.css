@@ -1,0 +1,270 @@
+*{
+	padding: 0;
+    margin: 0;
+    
+}
+
+/**********************section***************************/
+.First_section
+{
+    height:12vh;
+    background-color:  white;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+
+}
+
+/*********************logo + navbar**********************************/
+.header_menu{
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+/*****************************logo*********************************/
+.logo
+{
+	width: 5.375rem;
+	text-align: center;
+    color: rgb(41, 39, 39);
+    font-size: 2rem;   
+}
+
+/***************************navbar********************************/
+.menu_list{
+	width: 100%;
+	text-align: right;
+	padding-right: 2.125rem;
+    font-weight: 400;
+}
+
+.menu_list li{
+	display: inline-block;
+    list-style: none;
+	letter-spacing: 0.12rem;
+	
+}
+
+
+
+/*****************************************button*********************************/
+.menu_list button2{
+	font-size: 2rem;
+    background: transparent;
+    border: 0;
+	border-radius: 0.93rem;
+}
+
+.menu_list button2 a{
+	
+	text-decoration: none;
+	letter-spacing: 0.12rem;
+    color: rgb(26, 32, 32);
+    font-weight: 100;
+}
+.menu_list button{
+    height: auto;
+	padding:.7rem 1rem;
+	color:rgba(131, 36, 36, 0.027);
+	font-size: 1rem;
+    background: #65C6BB;
+    color: whitesmoke;
+    border: 0;
+    outline: none;
+    border-radius: 1.25rem;
+	margin-left: 2rem;
+	border-radius: 0.93rem;
+}
+
+.menu_list button a{
+	
+	text-decoration: none;
+	letter-spacing: 0.12rem;
+    color: white;
+    font-weight: 100;
+}
+/********************second section********************************/
+.page1
+{
+    height: 90%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background: #E5E5E5;
+}
+.page1 h2
+{
+    padding: 1rem 1rem;
+    text-align: center;
+    color: #65C6BB;
+    font-size: 2rem;
+}
+/*************input field******************/
+.form-box,.form-box2
+{
+    width: 12.1rem;
+    height: 18.75rem;
+    position: relative;
+    margin: 1rem auto;
+    background: rgba(201, 199, 199, 0.808);
+    padding: 5.625rem;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.form-box2
+{
+    height: 8rem;
+}
+
+.input-group
+{
+    top:3.125rem;
+    position: absolute;
+    width: 17.5rem;
+    transition: .5s;
+}
+.input_field
+{
+    width: 100%;
+    padding: 1.25rem 0;
+    margin: 0.3125rem 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+/*********************************post button for log in and sign up*****************************************/
+.submit-btn
+{
+    width: 45%;
+    padding: 0.9375rem 2.5rem;
+    cursor: pointer;
+    display: block;
+    margin: 1.562rem 4.0625rem;
+    background: #65C6BB;
+    color: whitesmoke;
+    border: 0;
+    outline: none;
+    border-radius: 1.875rem;
+    font-size: large;
+}
+
+#login
+{
+    left: 3.125rem;
+}
+/*******************************************post section started*****************************************/
+/*******************************************(Chatbox section)********************************************/
+
+.page2
+{
+    height: 110%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background: #E5E5E5; 
+}
+
+.page2 h4
+{
+    padding: 1rem 4rem;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 3rem;
+}
+/*********************************What is on your mind*****************************************/
+.input-box
+ {
+    background: #E4E6EB;
+    border-radius: 3.75rem;
+    height: 2.875rem;
+    outline: none;
+}
+/*********************************input+post box common property******************************/
+.input-box,.post-box
+{
+    width: 60.45rem;
+    padding: .331rem 1.29rem;
+    margin: .5rem 3.125rem;
+    border: 0.19rem solid #DEE0E3;
+}
+
+/*****************************************full box of post section(parent box)*************************/
+.post-box
+ {
+    height: 24.75rem;
+    border-radius: 1.875rem;
+ }
+
+/************************************************name*************************************************/
+.username
+ {
+    font-weight: normal;
+    font-size: 2.25rem;
+    line-height: 2.82rem;
+    color: #000000;
+ }
+/************************************************time*************************************************/
+.time 
+ {
+   font-size: 1.875rem;
+   line-height: 2.875rem;
+   color: #656770;
+ }
+
+/**********************************************paragraph********************************************/
+  .post p
+  {
+    width: 62.32rem;
+    height: 14.63rem;
+    font-size: 1.875rem;  /**/
+    line-height: 2.32rem;
+    color: #000000;
+  }
+
+/*********************************************parallel line******************************************/ 
+.border
+{
+   margin: 0 -1.395rem;
+   width: 62.76rem;
+   border: 0.19rem solid #DEE0E3;
+   transform: rotate(180deg);
+}
+
+/*********************************************like comment save button************************************/  
+.btn-group button 
+{  
+  font-size: 1.375rem;  
+  width: 31.33%;
+  background: transparent;
+  border: transparent; 
+  color: rgb(88, 86, 86); 
+  padding: 1.44rem 1.5rem; 
+  cursor: pointer; 
+  float: left; 
+}
+
+/********************************************sumit button for post section*********************************/
+.submit-btn2
+{
+    height: 3.25rem;
+    width: 9%;
+    cursor: pointer;
+    margin: 1rem 4.044rem;
+    background: #65C6BB;
+    color: whitesmoke;
+    border: 0;
+    outline: none;
+    border-radius: 3.75rem;
+    font-size: 1.875rem;   /**/
+}
